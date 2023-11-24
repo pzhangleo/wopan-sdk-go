@@ -11,7 +11,7 @@ const (
 	DefaultBaseURL      = "https://panservice.mail.wo.cn"
 	DefaultZoneURL      = "https://gxupload.pan.wo.cn:8443"
 	DefaultUA           = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37"
-	DefaultPartSize     = int64(8 * 1024 * 1024)
+	DefaultPartSize     = int64(32 * 1024 * 1024)
 )
 
 const (
